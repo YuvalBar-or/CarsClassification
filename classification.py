@@ -13,7 +13,7 @@ import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-# Define the train and validation sets
+# Define the train and validation directories
 train_dir = 'training'
 validation_dir = 'validation'
 
